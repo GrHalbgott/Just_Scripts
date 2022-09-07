@@ -20,4 +20,4 @@ while task in yes_responses:
 while task not in yes_responses and task not in no_responses:
     task = input("I can't understand that, try again with y/n:")
              
-print("\nThanks for using this random password generator. \nHave a gnice day!")
+print("\nThanks for using this random password generator. \nHave a nice day!")
