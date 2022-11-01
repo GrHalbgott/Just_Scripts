@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """A DEM Difference Calculation"""
 
-# Authors:  Philipp Valentin Friedrich & Nikolaos Kolaxidis
 # Call with:
 # $ python src/diff_calc.py
 
