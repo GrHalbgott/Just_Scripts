@@ -50,3 +50,12 @@ This can be implemented for example in a clip operation (next one).
 Well it does what it says.
   
 </details>
+
+<details>
+  <summary><b>dem_diff (Python): Calculate difference between two raster images</b></summary>
+<br>  
+
+If you have two raster images of the same area but during different times, you can use this script to calculate the differences between them. <br/>
+Adapting it to your application works by chaning paths and file names.
+
+</details>
