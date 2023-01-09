@@ -2,11 +2,12 @@
 
 import random
 import string
+import sys
 
 print("Hello world! \nThis is a random password generator.")
 
 length = int(input("Desired password length: "))
-char = string.ascii_letters + string.ascii_letters + string.ascii_letters + string.digits + string.digits + string.punctuation
+char = string.ascii_letters + string.digits + string.punctuation
 task = "yes"
 yes_responses, no_responses = {"y","yes", "Y", "Yes"}, {"n","no", "N", "No"}
 
@@ -21,3 +22,4 @@ while task not in yes_responses and task not in no_responses:
     task = input("I can't understand that, try again with y/n:")
              
 print("\nThanks for using this random password generator. \nHave a nice day!")
+sys.exit(0)
