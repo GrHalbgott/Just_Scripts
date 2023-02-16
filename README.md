@@ -21,6 +21,15 @@ You can calculate how long a large task consisting of multiple tasks will need t
   
 </details>
 
+<details>
+  <summary><b>daydiff_calculator (Python): Calculate the difference between two dates</b></summary>
+<br>  
+
+By using `datetime` this script can calculate the difference between two dates the user can interactively put in. <br/>
+Catches all exceptions and can use dates like "today" and "now".
+  
+</details>
+
 
 ## GIS scripts
 
