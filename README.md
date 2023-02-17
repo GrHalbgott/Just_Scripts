@@ -42,7 +42,7 @@ If you want to adapt it to your application, you should  change the bounding box
 </details>
 
 <details>
-  <summary><b>roi_extractor (GDAL): Extract region of interest from GADM (Germany) dataset</b></summary>
+  <summary><b>roi_extractor (Batch/GDAL): Extract region of interest from GADM (Germany) dataset</b></summary>
 <br>
 
 Your input (region) is handled like a variable and gets implemented in the command. By changing "DEU" in the command to your country of interest, you can use the command for every region in the world.<br/>
@@ -52,7 +52,7 @@ This can be implemented for example in a clip operation (next one).
 </details>
 
 <details>
-  <summary><b>clip (GDAL): Clip a raster with a shapefile</b></summary>
+  <summary><b>clip (Batch/GDAL): Clip a raster with a shapefile</b></summary>
 <br>  
 
 Well it does what it says.
