@@ -8,7 +8,7 @@ This repository functions as a collection of some helpful and not so helpful but
   <summary><b>random_pwd (Python): Generate a random password</b></summary>
 <br>  
 
-This scripts generates a random password for you by using different characters (letters, digits, punctuation). <br/>
+This script generates a random password for you by using different characters (letters, digits, punctuation). <br/>
 The small commandline-tool even talks to you if you put in wrong answers!
   
 </details>
@@ -22,11 +22,10 @@ You can calculate how long a large task consisting of multiple tasks will need t
 </details>
 
 <details>
-  <summary><b>daydiff_calculator (Python): Calculate the difference between two dates</b></summary>
+  <summary><b>datediff_calculator (Python): Calculate differences between two dates</b></summary>
 <br>  
 
-By using `datetime` this script can calculate the difference between two dates the user can interactively put in. <br/>
-Catches all exceptions and can use dates like "today" and "now".
+This script can calculate the difference between two dates in multiple time units. Interactive.
   
 </details>
 
