@@ -15,10 +15,7 @@ YEAR_LIST = ["year", "years", "y"]
 
 
 def calc_diff(input1, input2, input_type):
-    if input1 == "":
-        start = dt.strptime(dt.today().strftime(r"%Y.%m.%d"), r"%Y.%m.%d")
-    else:
-        start = dt.strptime(input1, r"%Y.%m.%d")
+    start = dt.strptime(input1, r"%Y.%m.%d")
     end = dt.strptime(input2, r"%Y.%m.%d")
     if input_type in ("day", "days", "d", "week", "weeks", "w"):
         delta = start - end
@@ -42,14 +39,16 @@ def type_handler(delta, input):
 # Start of the program
 
 input1 = input("Start date (format YYYY.MM.DD, default = today): ")
-input2 = input("End date (format YYYY.MM.DD): ")
+if input1 == "":
+    input1 = dt.today().strftime(r"%Y.%m.%d")
+input2 = input("End date (format YYYY.MM.DD, default = 1348.05.21): ")
 if input2 == "":
     input2 = "1348.05.21"
 input_type = input("Calculate in years (y), months (m), weeks (w) or days (d): ") 
 
 try:
     result = calc_diff(input1, input2, input_type)
-    if result == 0:
+    if result == 0 and not (input_type in MONTH_LIST or input_type in YEAR_LIST):
         print("Today is the day! YEEEAAAHHH!!!")    
     elif input_type in YEAR_LIST:
         print(f"Difference: {abs(result)} year(s) and {result % 12} month(s).")
