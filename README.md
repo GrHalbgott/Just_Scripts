@@ -5,6 +5,15 @@ This repository functions as a collection of some helpful and not so helpful but
 ## Stuff 
 
 <details>
+  <summary><b>whisper_transcribe (Python): Transcription using Whisper AI</b></summary>
+<br>  
+
+This small script queries OpenAI's Whisper AI and writes the response to file. <br/>
+Automated transcription!
+  
+</details>
+
+<details>
   <summary><b>random_pwd (Python): Generate a random password</b></summary>
 <br>  
 
