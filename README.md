@@ -76,3 +76,11 @@ If you have two raster images of the same area but during different times, you c
 Adapting it to your application works by chaning paths and file names.
 
 </details>
+
+<details>
+  <summary><b>query_ohsome_api (Python): Query OSM data using Ohsome API for a list of aois</b></summary>
+<br>  
+
+This python script is the basic template to query OSM data using the Ohsome API. You can specify the list of aois, the filters and the time.
+
+</details>
