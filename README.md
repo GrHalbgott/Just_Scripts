@@ -38,6 +38,14 @@ This script can calculate the difference between two dates in multiple time unit
   
 </details>
 
+<details>
+  <summary><b>midi_length_sum (Python): Sum up the length of multiple midi files</b></summary>
+<br>  
+
+Well it does what it says. Sums up the seconds and coverts them to a readable time format.
+  
+</details>
+
 
 ## GIS scripts
 
